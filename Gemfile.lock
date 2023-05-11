@@ -72,6 +72,7 @@ GEM
     bootsnap (1.10.2)
       msgpack (~> 1.2)
     builder (3.2.4)
+    bundler-unload (1.0.2)
     capybara (3.36.0)
       addressable
       matrix
@@ -216,6 +217,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  bundler-unload (= 1.0.2)
   capybara
   debug
   importmap-rails

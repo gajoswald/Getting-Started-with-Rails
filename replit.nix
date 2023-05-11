@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
+		pkgs.nodePackages.prettier
         pkgs.less
         pkgs.nano
         pkgs.ruby_3_0
